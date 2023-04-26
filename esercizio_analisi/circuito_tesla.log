@@ -1,0 +1,49 @@
+Circuit: * C:\Users\edoar\Desktop\elet_industriale\esercizio_analisi\circuito_tesla.asc
+
+Direct Newton iteration for .op point succeeded.
+.step duty=0
+.step duty=1e-06
+.step duty=2e-06
+.step duty=3e-06
+.step duty=4e-06
+.step duty=5e-06
+.step duty=6e-06
+.step duty=7e-06
+.step duty=8e-06
+.step duty=9e-06
+.step duty=1e-05
+
+
+Measurement: gain
+  step	AVG(v(out)/v(in))	FROM	TO
+     1	-0.0157031	0.007	0.009
+     2	-0.126587	0.007	0.009
+     3	-0.264224	0.007	0.009
+     4	-0.439359	0.007	0.009
+     5	-0.669339	0.007	0.009
+     6	-0.984168	0.007	0.009
+     7	-1.43328	0.007	0.009
+     8	-2.11642	0.007	0.009
+     9	-3.19661	0.007	0.009
+    10	-4.46983	0.007	0.009
+    11	-0.385915	0.007	0.009
+
+
+Date: Sun Mar 26 20:43:08 2023
+Total elapsed time: 2.950 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 86810
+traniter = 86807
+tranpoints = 41424
+accept = 31590
+rejected = 9834
+matrix size = 7
+fillins = 0
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1:      12 opcodes  0.1/[0.1]/0.1
+Matrix Compiler2: 393 bytes object code size  0.1/0.1/[0.1]
+
