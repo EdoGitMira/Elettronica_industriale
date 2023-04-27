@@ -1,0 +1,21 @@
+* C:\Users\edoar\Desktop\flyback\Flyback_clamp.asc
+Co N003 0 10µ
+Ro N003 0 50
+V§Clock N006 0 PULSE(0 10 0 1u 1u 5u 10.2u)
+Vi N001 0 12
+D N002 N003 MBRS1100
+L1 N005 N001 100µ
+L2 N002 0 900µ
+M1 N005 N006 0 0 IRF510
+D1 NC_01 N004 MBRS1100
+Cc N001 N004 3.3µ
+Rc N001 N004 330
+.model D D
+.lib C:\Users\edoar\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\edoar\AppData\Local\LTspice\lib\cmp\standard.mos
+.tran 2ms
+K1 L1  L2 0.99
+.backanno
+.end

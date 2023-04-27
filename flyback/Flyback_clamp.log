@@ -1,0 +1,23 @@
+Circuit: * C:\Users\edoar\Desktop\flyback\Flyback_clamp.asc
+
+WARNING: Less than two connections to node nc_01.  This node is used by d1.
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu Apr 27 11:10:56 2023
+Total elapsed time: 5.000 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1225191
+traniter = 1225178
+tranpoints = 380091
+accept = 256069
+rejected = 124022
+matrix size = 17
+fillins = 6
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 1.08 KB object code size  0.6/0.3/[0.3]
+Matrix Compiler2: off  [0.2]/0.3/0.3
+
